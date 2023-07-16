@@ -146,3 +146,20 @@ main{
     font-size: 1.25rem;
     margin-top: 5px;
 }
+
+/* Sponsors Section  */
+.sponsors{
+    text-align: center;
+}
+
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+.sponsors-img-container img{
+    width: 165px;
+}
