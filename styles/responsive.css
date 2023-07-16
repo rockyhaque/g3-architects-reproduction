@@ -1,12 +1,11 @@
-/* Header */
-
 @media screen and (max-width: 576px) {
     header{
         padding: 20px;
     }
 
     nav,
-    .teams-container
+    .teams-container,
+    .facts-card-container
     {
         flex-direction: column;
     }
@@ -18,6 +17,10 @@
     .teams-content{
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .facts-card-container{
+        gap: 20px;
     }
     
 }
