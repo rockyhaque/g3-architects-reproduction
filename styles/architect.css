@@ -2,7 +2,79 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
+/* Shared Styles */
 
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
+
+}
+/* Header Styles */
+
+
+/* Nav Bar Starts from here */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* Banner Starts from here */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;    
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: #727272;
+}
+
+.banner img{
+    margin-top: 20px;
+    width: 100%;
 }
