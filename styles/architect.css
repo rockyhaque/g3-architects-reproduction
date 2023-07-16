@@ -18,6 +18,11 @@
     border: 0;
 
 }
+
+.text-light-gray{
+    color: #727272;
+}
+
 /* Header Styles */
 
 
@@ -70,9 +75,6 @@ nav li a{
     font-weight: 700;
 }
 
-.banner-description{
-    color: #727272;
-}
 
 .banner img{
     margin-top: 20px;
@@ -83,7 +85,7 @@ nav li a{
 
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* Team Section */
@@ -109,7 +111,6 @@ main{
 }
 
 .teams-title .quick-list{
-    color: #727272;
     font-weight: 500;
 }
 
