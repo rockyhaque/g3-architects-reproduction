@@ -32,7 +32,7 @@
 /* Header Styles */
 
 
-/* Nav Bar Starts from here */
+/* Navbar Starts */
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -62,7 +62,7 @@ nav li a{
 }
 
 
-/* Banner Starts from here */
+/* Banner Starts*/
 
 .banner-content{
     max-width: 800px;
@@ -82,7 +82,7 @@ nav li a{
     width: 100%;
 }
 
-/* Main Section Starts from here */
+/* Main Section Starts*/
 
 main{
     max-width: 1440px;
@@ -120,6 +120,52 @@ main{
     font-weight: 700;
 }
 
+/* Features Section Starts  */
+
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.features .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-img img{
+    height: 90%;
+    margin-left: 90px;
+}
+
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years-badge h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-years-badge p{
+    font-size: 1.5rem;
+}
+
 /* Facts Section Starts */
 
 .facts-card-container{
@@ -147,7 +193,7 @@ main{
     margin-top: 5px;
 }
 
-/* Sponsors Section  */
+/* Sponsors Section  Starts*/
 .sponsors{
     text-align: center;
 }
@@ -162,4 +208,16 @@ main{
 
 .sponsors-img-container img{
     width: 165px;
+}
+
+/* footer Sections Starts */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 240px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
 }
