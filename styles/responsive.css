@@ -36,7 +36,8 @@
     }
 
     .footer-container{
-        margin: 130px 80px;
+        margin: 130px auto;
+
     }
     
 }
@@ -56,6 +57,7 @@
     }
 
     .footer-container{
-        margin: 130px 150px;
+        margin: 130px auto;
+
     }
 }
